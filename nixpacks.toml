@@ -1,4 +1,7 @@
-[phases.build]
+[variables]
+MISE_PYTHON_GITHUB_ATTESTATIONS = "false"
+
+[phases.install]
 cmds = ["pip install -r requirements.txt"]
 
 [start]
